@@ -1,5 +1,8 @@
 server:
-  port: 8091
+  port: 8081
+  error:
+    include-message: always
+    include-binding-errors: always
 
 spring:  cloud:    config:      server:        git:
           uri: https://github.com/isaacjm14/microservicios-spring.git
