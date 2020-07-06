@@ -1,11 +1,10 @@
 package academy.digitallab.store.shopping.entity;
 
 
-import lombok.Data;
+import lombok.Data; 
 
 import javax.persistence.*;
 import javax.validation.constraints.Positive;
-import java.io.Serializable;
 
 @Entity
 @Data

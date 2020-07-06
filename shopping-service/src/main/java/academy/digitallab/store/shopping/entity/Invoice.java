@@ -1,11 +1,10 @@
 package academy.digitallab.store.shopping.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties; 
 import lombok.Data;
 
 import javax.persistence.*;
 import javax.validation.Valid;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
