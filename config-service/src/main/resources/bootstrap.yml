@@ -1,0 +1,10 @@
+server:
+  port: 8091
+
+spring:  cloud:    config:      server:        git:
+          uri: https://github.com/isaacjm14/microservicios-spring.git
+          search-paths:          - config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  security:    user:      name: root
+      password: s3cr3t          
